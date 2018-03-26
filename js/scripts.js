@@ -1,15 +1,3 @@
-function printitems(name, parks, rides){
-  var name = "Name"
-  var rides = "Rides"
-  var parks = "Park"
-
-}
-
-
-
-
-
-
 $(document).ready(function() {
   $("#formArray").submit(function(event) {
   event.preventDefault();
@@ -23,10 +11,6 @@ $(document).ready(function() {
   document.getElementById('Name').innerHTML = Name;
   document.getElementById('Park').innerHTML = Park;
   document.getElementById('Rides').innerHTML = Rides;
-
-
-  var results = printitems(list)
-  console.log("USER ENTERED:" + list[0] + "USER ENTERED:" + list[1] + "USERENTERED:" + list[2]);
-  console.log(list)
   });
+  
 });
