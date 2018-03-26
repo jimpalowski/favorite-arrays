@@ -13,7 +13,7 @@
         <form id="formArray">
           <div class="form-row" id="name">
           <div class="col">
-            <input type="text" value="name" class="form-control" placeholder="Name">
+            <input type="text" name="name" class="form-control" placeholder="Name">
           </div>
           <div class="form-group">
             <label for="rides">What is your favorite ride?</label>
@@ -28,7 +28,7 @@
         <div>
         <div class="form-group" id="favorite-parks">
           <label for="places">What is your favorite amusement park?</label>
-          <input type="radio" name="places" value="Disney-Land">
+          <input type="radio" name="places" value=" Disney-Land">
           <em>Disney Land</em>
           <input type="radio" name="places" value="Lego-land">
           <em>Lego Land</em>
@@ -39,6 +39,10 @@
         </div>
           <button type="submit" id="answer">Submit</button>
         </form>
+        <div id="hello">
+          <h1>Hello <span id="Name"></span></h1>Your favorite ride is <span id="Rides"></span>
+            and your favorite park is <span id="Park"></span>
+            <p></p>
     </div>
   </body>
 </html>
